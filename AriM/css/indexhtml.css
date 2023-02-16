@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap-reverse;
+  }
+
+  .container-left {
+    width: 500px;
+    height: 37.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px #252525;
+  }
+
+  .container-right {
+    width: 500px;
+    box-shadow: 0px 0px 2px #252525;
+  }
+
+  .container-left h4 {
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    font-family: "Roboto Flex", sans-serif;
+  }
+
+  .container-left .iUser,
+  .iPass {
+    width: 92%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #252525;
+  }
+
+  .container-left .iUser {
+    margin-bottom: 1rem;
+  }
+
+  .container-left .container-username,
+  .container-password {
+    margin-left: 2rem;
+  }
+
+  .container-left .submit {
+    margin-top: 3rem;
+    display: block;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  form .forgot {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  form .register::before {
+    content: "Or";
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  form .register {
+    text-align: center;
+  }
+
+  .container-password {
+    position: relative;
+  }
+
+  .container-password .show-pass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    margin: 1.5rem auto auto 25.3rem;
+  }
+
+  .container-right .slide {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    width: 100%;
+  }
+
+  .container-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-right .title-content {
+    position: absolute;
+    top: 0;
+    left: 50;
+    margin-top: 36rem;
+  }
+
+  .title-content h3,
+  h2,
+  p {
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+/* large devices (Dekstop, 992 and up) */
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .container-left {
+    width: 392px;
+    height: 37.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px #252525;
+  }
+
+  .container-right {
+    width: 400px;
+    box-shadow: 0px 0px 2px #252525;
+  }
+
+  .container-left h4 {
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    font-family: "Roboto Flex", sans-serif;
+  }
+
+  .container-left .iUser,
+  .iPass {
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #252525;
+  }
+
+  .container-left .iUser {
+    margin-bottom: 1rem;
+  }
+
+  .container-left .container-username,
+  .container-password {
+    margin-left: 2rem;
+  }
+
+  .container-left .submit {
+    margin-top: 3rem;
+    display: block;
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  form .forgot {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  form .register::before {
+    content: "Or";
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  form .register {
+    text-align: center;
+  }
+
+  .container-password {
+    position: relative;
+  }
+
+  .container-password .show-pass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    margin: 1.5rem auto auto 18.5rem;
+  }
+
+  .container-right .slide {
+    width: 400px;
+  }
+
+  .carousel-item img {
+    width: 100%;
+  }
+
+  .container-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-right .title-content {
+    position: absolute;
+    top: 0;
+    left: 50;
+    margin-top: 27rem;
+  }
+
+  .title-content h3,
+  h2,
+  p {
+    font-family: "Rubik", sans-serif;
+  }
+}
